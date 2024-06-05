@@ -5,35 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela de cadastro</title>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-telacadastro.css">
 
 </head>
 <body>
-    <header></header>
-    <h1>CAdastro de clientes</h1>
-    <form action="processa-cadastro.php" method="POST">
-        <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome">
-        </div>
+    <div id="conteiner">
+        <header>
 
-        <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        </div>
-
-        <div>
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone">
-        </div>
-
-        <div>
-        <label for="descricao">Descrição:</label>
-        <input type="descricao" id="descricao" name="descricao">
-        </div>
-
-        <button type="submit">Cadastrar</button>
-    </form>
+        </header>
     
-    <button><a href="index.php">Voltar</a></button>
+        <main>
+            <h1>Cadastro de clientes</h1>
+            <form action="processa-cadastro.php" method="POST">
+                <div>
+                <label for="nome" class="label">Nome:</label>
+                <input type="text" id="nome" name="nome" class="input">
+                </div>
+
+                <div>
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" name="email" class="input">
+                </div>
+
+                <div>
+                <label for="telefone" class="label">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" class="input">
+                </div>
+
+                <div>
+                <label for="descricao" class="label">Descrição:</label>
+                <input type="descricao" id="descricao" name="descricao" class="input">
+                </div>
+
+                <div class="button">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+            
+            <div class="button">
+                <a href="index.php"><button>Voltar</button></a>
+            </div>          
+
+        </main>
+    </div>
 </body>
 </html>

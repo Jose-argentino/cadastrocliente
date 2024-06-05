@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+#conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 header{
     height: 100px;
     background: #5e5a5a;

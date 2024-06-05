@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro cliente</title>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-index.css">
+
 </head>
 <body>
     <div id="conteiner">
@@ -13,8 +15,8 @@
         </header>
 
         <main>
-            <button><a href="telacadastro.php">Cadastro</a></button>
-            <button><a href="telalistacliente.php">Clientes</a></button>
+            <a href="telacadastro.php"><button>Cadastro</button></a>
+            <a href="telalistacliente.php"><button>Clientes</button></a>
         </main>
 
         <footer>

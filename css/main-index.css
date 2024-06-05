@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    gap: 20px;
+}
+
+main button{
+    padding: 30px 50px;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 2rem;
+    color: rgb(18, 2, 99);
+    font-weight: 600;
+    min-width: 300px;
+}
+
+main button:hover{
+    padding: 40px 60px;
+    box-shadow: rgba(221, 212, 78, 0.25) 0px 30px 60px -12px inset, rgba(82, 157, 192, 0.3) 0px 18px 36px -18px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; */
+    font-size: 2.5rem;
+    min-width: 300px;
+}
+main a{
+    text-decoration: none;
+
+}
