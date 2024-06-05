@@ -8,6 +8,19 @@
 }
 
 header{
-    height: 100px;
+    min-height: 100px;
     background: #5e5a5a;
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerimg{
+    height: 100px;
+}
+
+#navprincipal ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
