@@ -58,25 +58,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-editarcliente.css">
 </head>
 
 <body>
-    <h1>Editar Cliente</h1>
-    <form action="" method="POST">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome"  name="nome" value="<?php echo $row["nome"]; ?>" require> <br>
+<div id="conteiner">
+        <header>
+            <div>
+                <img src="img/logo.png" alt="" id="headerimg">
+            </div>
+            <div id="navheader">
+                <nav id="navprincipal">
+                    <ul>
+                        <li><a href="">***********</a></li>
+                        <li><a href="">***********</a></li>
+                        <li><a href="">***********</a></li>
+                        <li><a href="">***********</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-        <label for="email">Email</label>
-        <input type="text" id="email"  name="email" value="<?php echo $row["email"]; ?>" require> <br>
-        
-        <label for="telefone">Telefone </label>
-        <input type="text" id="telefone"  name="telefone" value="<?php echo $row["telefone"]; ?>" require> <br>
+        <main>              
+            <h1>Editar Cliente</h1>
+            <div>
+                <form action="" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome"  name="nome" value="<?php echo $row["nome"]; ?>" require> <br>
 
-        <label for="descricao">Descrição</label>
-        <input type="text" id="descricao"  name="descricao" value="<?php echo $row["descricao"]; ?>" require> <br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email"  name="email" value="<?php echo $row["email"]; ?>" require> <br>
+                    
+                    <label for="telefone">Telefone </label>
+                    <input type="text" id="telefone"  name="telefone" value="<?php echo $row["telefone"]; ?>" require> <br>
 
-        <input type="submit" value="Salvar Alteração">
+                    <label for="descricao">Descrição</label>
+                    <input type="text" id="descricao"  name="descricao" value="<?php echo $row["descricao"]; ?>" require> <br>
 
-    </form>
+                    <input type="submit" value="Salvar Alteração">
+
+                </form>
+
+                <div class="button">
+                    <a href="index.php"><button>Voltar</button></a>
+                </div> 
+            </div> 
+        </main>
+</div>
 </body>
 </html>
