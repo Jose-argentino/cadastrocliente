@@ -29,12 +29,13 @@
 
         <main>
             <a href="telacadastro.php"><button>Cadastro</button></a>
-            <a href="telalistacliente.php"><button>Clientes</button></a>
+            <a href="clientes.php"><button>Clientes</button></a>
         </main>
 
         <footer>
 
         </footer>
     </div>
+    
 </body>
 </html>
