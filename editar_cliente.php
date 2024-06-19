@@ -63,18 +63,20 @@
 </head>
 
 <body>
-<div id="conteiner">
+    <div id="conteiner">
         <header>
+
             <div>
                 <img src="img/logo.png" alt="" id="headerimg">
             </div>
+
             <div id="navheader">
                 <nav id="navprincipal">
                     <ul>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
                     </ul>
                 </nav>
             </div>
@@ -84,19 +86,29 @@
             <h1>Editar Cliente</h1>
             <div>
                 <form action="" method="POST">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome"  name="nome" value="<?php echo $row["nome"]; ?>" require> <br>
+                    <div>
+                        <label for="nome" class="label">Nome</label>
+                        <input type="text" id="nome" class="input" name="nome" value="<?php echo $row["nome"]; ?>" require> <br>
+                    </div>
 
-                    <label for="email">Email</label>
-                    <input type="text" id="email"  name="email" value="<?php echo $row["email"]; ?>" require> <br>
+                    <div>
+                        <label for="email" class="label">Email</label>
+                        <input type="text" id="email" class="input" name="email" value="<?php echo $row["email"]; ?>" require> <br>
+                    </div>
+
+                    <div>
+                        <label for="telefone" class="label">Telefone </label>
+                        <input type="text" id="telefone" class="input" name="telefone" value="<?php echo $row["telefone"]; ?>" require> <br>
+                    </div>
+
+                    <div>
+                        <label for="descricao" class="label">Descrição</label>
+                        <input type="text" id="descricao" class="input" name="descricao" value="<?php echo $row["descricao"]; ?>" require> <br>
+                    </div>
                     
-                    <label for="telefone">Telefone </label>
-                    <input type="text" id="telefone"  name="telefone" value="<?php echo $row["telefone"]; ?>" require> <br>
-
-                    <label for="descricao">Descrição</label>
-                    <input type="text" id="descricao"  name="descricao" value="<?php echo $row["descricao"]; ?>" require> <br>
-
-                    <input type="submit" value="Salvar Alteração">
+                    <div id="input-button">
+                        <input type="submit" id="button" value="Salvar Alteração">
+                    </div>    
 
                 </form>
 
@@ -105,6 +117,7 @@
                 </div> 
             </div> 
         </main>
+    </div>
 </div>
 </body>
 </html>

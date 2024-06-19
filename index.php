@@ -10,22 +10,24 @@
 </head>
 <body>
     <div id="conteiner">
-    <header>
+        <header>
+
             <div>
                 <img src="img/logo.png" alt="" id="headerimg">
             </div>
-            
+
             <div id="navheader">
                 <nav id="navprincipal">
                     <ul>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+
 
         <main>
             <a href="telacadastro.php"><button>Cadastro</button></a>

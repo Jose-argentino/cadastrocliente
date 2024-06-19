@@ -14,19 +14,19 @@
             <div>
                 <img src="img/logo.png" alt="" id="headerimg">
             </div>
-            
+
             <div id="navheader">
                 <nav id="navprincipal">
                     <ul>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
-                        <li><a href="">***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
+                        <li><a href="">link***********</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-    
+
         <main>
             <h1>Cadastro de clientes</h1>
             <form action="processa-cadastro.php" method="POST">
@@ -61,6 +61,5 @@
 
         </main>
     </div>
-    
 </body>
 </html>
