@@ -44,7 +44,7 @@
         <main>
 
 
-        
+
             <?php
                 //conexao com o banco de dados
                 $servername = "localhost";
@@ -60,17 +60,19 @@
                 }
 
                 $termo = $_GET['termo'];
-
-                $sql = "SELECT * FROM clientes WHERE nome LIKE '$%termo%' OR email LIKE '$%termo%' OR telefone LIKE '$%termo%' OR descricao LIKE '$%termo%'";
+                // $sql = "SELECT * FROM clientes WHERE nome LIKE '$%termo%' OR email LIKE '$%termo%' OR telefone LIKE '$%termo%' OR descricao LIKE '$%termo%'";
+                $sql = "SELECT * FROM clientes WHERE nome LIKE '%$termo%' OR email LIKE '%$termo%' OR telefone LIKE '%$termo%' OR descricao LIKE '%$termo%'";
 
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0){
                     echo "<h2> Resultado da pesquisa</h2>";
                     echo "<table border = '1'>";
-                    echo "<tr><th>Nome</th><th>Email</th><th>Telefone</th><thh>Descrição</th></tr>";
+                    echo "<tr><th>Nome</th><th>Email</th><th>Telefone</th><th>Descrição</th></tr>";
+                    // echo "<tr><th>Nome</th><th>Email</th><th>Telefone</th><thh>Descrição</th></tr>";
                     while($row = $result->fetch_assoc()){
-                        echo "<tr><td>".$row["nome"]."<tr><td>".$row["email"]."<tr><td>".$row["telefone"]."<tr><td>".$row["descricao"]."</tr></td>";
+                        echo "<tr><td>".$row["nome"]."</td><td>".$row["email"]."</td><td>".$row["telefone"]."</td><td>".$row["descricao"]."</td></tr>";
+                        // echo "<tr><td>".$row["nome"]."<tr><td>".$row["email"]."<tr><td>".$row["telefone"]."<tr><td>".$row["descricao"]."</tr></td>";
                     }
                     echo "</table>";
                 }else{
