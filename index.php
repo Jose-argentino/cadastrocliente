@@ -32,6 +32,7 @@
         <main>
             <a href="telacadastro.php"><button>Cadastro</button></a>
             <a href="clientes.php"><button>Clientes</button></a>
+            <a href="formulario_pesquisa.php"><button>Pesquisa</button></a>
         </main>
 
         <footer>

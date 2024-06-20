@@ -38,6 +38,7 @@
 
             if($conn->query($sql)===TRUE){
             echo "Dados atualizados com sucesso";
+            
             }else{
             echo "Erro ao atualizaros dados".$conn->error;
             }
@@ -56,7 +57,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-editarcliente.css">
@@ -119,5 +120,6 @@
         </main>
     </div>
 </div>
+    <!-- <script src="js/reset.js"></script> -->
 </body>
 </html>

@@ -51,12 +51,18 @@
                 </div>
 
                 <div class="button">
-                    <button type="submit">Cadastrar</button>
+                    <button type="submit">
+                        Cadastrar
+                    </button>
                 </div>
             </form>
             
             <div class="button">
-                <a href="index.php"><button>Voltar</button></a>
+                <a href="index.php">
+                    <button>
+                        Voltar
+                    </button>
+                </a>
             </div>          
 
         </main>
